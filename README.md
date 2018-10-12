@@ -5,9 +5,10 @@ A voluneer group of hackers that develops code around the SomEnergia Cooperative
 
 Bienvenido a la Comunidad Som Labs.
 
-Somos socias y simpatizantes de la cooperativa que queremos poner nuestro grano de arena
+Somos socias y simpatizantes de la cooperativa [Som Energia](https://somenergia.coop)
+que queremos poner nuestro grano de arena
 y participar en la cooperativa de otra forma, con nuestro saber hacer técnico.
-La comunidad nació de los eventos HackaSom de la Escuela de otoño organizada por la cooperativa.
+La comunidad nació de los eventos HackaSom de la Escuela que cada otoño organiza la cooperativa.
 
 ## Recursos
 
