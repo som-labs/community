@@ -1,4 +1,4 @@
-English: This repository is used to welcome the Som Labs comunity.
+**English:** This repository is used to welcome the Som Labs comunity.
 A voluneer group of hackers that develops code around the SomEnergia Cooperative.
 
 # SomLabs Comunity
