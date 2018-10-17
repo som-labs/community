@@ -27,6 +27,29 @@ También participamos en los repositorios que el Equipo Técnico de la cooperati
 Mientras acabamos de articular la comunidad igual quieres echarle un ojo
 a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.io/somenergia-courses/2018-10-06-hackasom2018/)
 
+## Protocolos
+
+### Incorporación
+
+Incorporarse en la comunidad de HackaSom implica incorporarse en una comunidad interactiva para avanzar distintos
+tipos de proyector por lo que solo es necessario querer aportar un granito de arena a la comunidad.
+
+La incorporación es abierta i no hace falta dejar constancia en ningún sitio, solo hace falta saber:
+        - Se puede acceder al grupo de Telegram [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w) para chatear con otros miembros
+        - Las peticiones de proyectos u otros recursos se hace con las issues de este mismo repositorio
+
+### Aportar ideas para nuevos proyectos o proyectos ya existentes
+
+Para aportar ideas de nuevos proyectos se puede hacer mediante la plantilla de [Nueva idea de proyecto](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md)
+Para aportar nuevas ideas sobre proyectos que aun no existen pero que la idea ya ha estado plasmada en las issues
+se puede hacer mediante mensajes en la issue correspondiente
+Para aportar ideas sobre proyectos ya existentes i que tienen un repositorio propio se puede hacer mediante issues
+en el repositorio correspondiente
+
+### Contribuir en los proyectos
+
+Puedes sentirte libre de contribuir en el proyecto que màs te guste, para hacerlo solo tienes que hacer una pull request
+con tus cambios al repositorio que mas te interese
 
 ## Idioma
 
