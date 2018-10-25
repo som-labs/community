@@ -51,6 +51,12 @@ en el repositorio correspondiente
 Puedes sentirte libre de contribuir en el proyecto que màs te guste, para hacerlo solo tienes que hacer una pull request
 con tus cambios al repositorio que mas te interese
 
+Cabe diferenciar dos organizaciones:
+	- [som-labs](https://github.com/som-labs/): Aqui encontramos distintios repositorios abiertos a todos los
+		usuarios. Este es el propio de la comunidad del HackaSom.
+	- [som-energia](https://github.com/som-energia/): Aqui encontramos distintos repositorios dessarroyados por los trabajadores
+		del Equipo de Trebajo. Se puede contribuir en cualquier proyecto mediante Pull Request.
+
 ## Idioma
 
 Esta página de bienvenida a la comunidad y la lista de proyectos están en castellano,
