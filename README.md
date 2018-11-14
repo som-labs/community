@@ -32,17 +32,20 @@ a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.
 ### Incorporación
 
 Incorporarse en la comunidad de HackaSom implica incorporarse en una comunidad interactiva para avanzar distintos
-tipos de proyector por lo que solo es necessario querer aportar un granito de arena a la comunidad.
+tipos de proyector, por lo que solo es necessario querer aportar un granito de arena a la comunidad.
 
 La incorporación es abierta i no hace falta dejar constancia en ningún sitio, solo hace falta saber:
-        - Se puede acceder al grupo de Telegram [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w) para chatear con otros miembros
-        - Las peticiones de proyectos u otros recursos se hace con las issues de este mismo repositorio
+
+ - Se puede acceder al grupo de Telegram [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w) para chatear con otros miembros
+ - Las peticiones de proyectos u otros recursos se hace con las issues de este mismo repositorio
 
 ### Aportar ideas para nuevos proyectos o proyectos ya existentes
 
 Para aportar ideas de nuevos proyectos se puede hacer mediante la plantilla de [Nueva idea de proyecto](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md)
+
 Para aportar nuevas ideas sobre proyectos que aun no existen pero que la idea ya ha estado plasmada en las issues
 se puede hacer mediante mensajes en la issue correspondiente
+
 Para aportar ideas sobre proyectos ya existentes i que tienen un repositorio propio se puede hacer mediante issues
 en el repositorio correspondiente
 
@@ -52,10 +55,11 @@ Puedes sentirte libre de contribuir en el proyecto que màs te guste, para hacer
 con tus cambios al repositorio que mas te interese
 
 Cabe diferenciar dos organizaciones:
-	- [som-labs](https://github.com/som-labs/): Aqui encontramos distintios repositorios abiertos a todos los
-		usuarios. Este es el propio de la comunidad del HackaSom.
-	- [som-energia](https://github.com/som-energia/): Aqui encontramos distintos repositorios dessarroyados por los trabajadores
-		del Equipo de Trebajo. Se puede contribuir en cualquier proyecto mediante Pull Request.
+	
+ - [som-labs](https://github.com/som-labs/): Aqui encontramos distintios repositorios abiertos a todos los
+		usuarios. Este es el propio de la comunidad del HackaSom
+ - [som-energia](https://github.com/som-energia/): Aqui encontramos distintos repositorios dessarroyados por los trabajadores
+		del Equipo de Trebajo. Se puede contribuir en cualquier proyecto mediante Pull Request
 
 ## Idioma
 
