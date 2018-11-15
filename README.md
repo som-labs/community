@@ -1,5 +1,5 @@
 **English:** This repository is used as welcome to the Som Labs comunity,
-a voluneer group of hackers that develops software and hardware around the SomEnergia Cooperative.
+a volunteer group of hackers that develops software and hardware around the SomEnergia Cooperative.
 
 # Comunidad SomLabs
 
