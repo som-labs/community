@@ -1,0 +1,8 @@
+# ruby
+vendor
+bin
+_site
+.bundle
+# vim
+.*.sw?
+Gemfile.lock

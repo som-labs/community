@@ -1,7 +1,8 @@
 #theme: jekyll-theme-midnight
 #remote_theme: TaylanTatli/Moon
 #remote_theme: pranavrajs/limpid
-title: Som Labs Community
-logo: hackasom2018.png
-show_downloads: false
+title: Comunidad Som Labs
+logo: logo-hackasom2017.jpg
+show_downloads: true
+lang: es
 #google_analytics: [Your Google Analytics tracking ID]

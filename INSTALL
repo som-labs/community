@@ -1,0 +1,11 @@
+
+# to see the website in local
+
+sudo apt install libruby-dev ruby-bundler
+bundler install --path vendor --binstubs
+bin/jekyll serve
+
+# to publish, commit any changes to master and then:
+
+./publish.sh
+
