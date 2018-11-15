@@ -33,7 +33,7 @@ También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-r
 
 ## Peticiones de recursos
 
-Si tu proyecto necesita recursos que te pueda ofrecer la cooperativa, la forma de hacerlo también es (mediante una issue)[https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md].
+Si tu proyecto necesita recursos que te pueda ofrecer la cooperativa, la forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
 **Alojamiento de servicios, dominios, nuevas API's, documentación, consultas, formaciones...**
 
 ## Más Información
