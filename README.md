@@ -47,19 +47,19 @@ a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.
 
 ## Nota sobre el idioma
 
-Tanto esta **página de bienvenida a la comunidad como la lista de proyectos** están **en castellano**,
-porque no todos los usuarios de SomEnergía que pueden tener ideas de proyectos
-se desenvuelven bien en Inglés y el castellano els la lengua franca entre los socios.
+Esta **página de bienvenida y la lista de proyectos** están **en castellano**.
+Es para facilitar la participación de personas no técnicas que no tienen porqué saber inglés.
 
-Pero, nuestro ámbito de compartición de código es europeo e internacional.
+Sin embargo, nuestro ámbito de compartición de código es europeo e internacional.
 Así que para facilitar la cooperación internacional,
-la **documentación y el código** (nombres de funciones, variables, comentarios...)
-de los proyectos los hacemos preferiblemente **en ingles**.
+escribimos la **documentación y el código** (nombres de funciones, variables, comentarios...)
+preferiblemente **en inglés**.
 
 Los **textos que van dirigidos al usuario de la aplicación**,
-los escribiremos en inglés pero los haremos **traducibles**,
-y cuando libreremos intentaremos que esten traducidos
-**en los 4 idiomas cooficiales del estado**
-(Castellano, Catalan, Euskera y Gallego).
-Y si podemos incluir los no cooficiales (Aragones, Bable...), ¡mejor aún!
+los escribiremos en inglés pero los haremos **traducibles**
+con la intención de que, cuando se publique,
+pueda estar disponible en **Castellano, Catalan, Euskera y Gallego**.
+Y si podemos incluir los otros (Aragones, Aranés, Bable...), ¡mejor aún!
+
+
 
