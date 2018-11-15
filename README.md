@@ -9,6 +9,7 @@ Somos socias y simpatizantes de la cooperativa [Som Energia](https://somenergia.
 que queremos poner nuestro grano de arena
 y participar en la cooperativa de otra forma, con nuestro saber hacer técnico.
 La comunidad nació de los eventos HackaSom de la Escuela que cada otoño organiza la cooperativa.
+Échale un vistazo a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.io/somenergia-courses/2018-10-06-hackasom2018/)
 
 ¡Todo el mundo está invitado a participar!
 
@@ -39,11 +40,6 @@ puedes articularlas colaborativamente en forma de
 Es posible que tu proyecto necesite recursos que te pueda ofrecer la cooperativa:
 **Alojamiento de servicios, dominios, nuevas API's, documentación, consultas, formaciones...**
 La forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
-
-## Más Información
-
-Mientras acabamos de articular la comunidad igual quieres echarle un ojo
-a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.io/somenergia-courses/2018-10-06-hackasom2018/)
 
 ## Nota sobre el idioma
 
