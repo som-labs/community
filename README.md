@@ -21,17 +21,17 @@ TODO: Pròximamente anunciaremos la nueva **lista de correo**, para discusiones 
 
 ## Espacios de trabajo
 
-Aglutinamos los proyectos comunitarios en la organización [som-labs](https://github.com/som-labs/) del github.
+- Aglutinamos los proyectos comunitarios en la organización [som-labs](https://github.com/som-labs/) del github.
 Échale un ojo a los que hay.
 
-También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa mantiene de forma pública en la organización [som-energia](https://github.com/som-energia/) de github.
+- También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa mantiene de forma pública en la organización [som-energia](https://github.com/som-energia/) de github.
 
 ## Propuestas de proyectos
 
-**Si buscas un proyecto donde aportar tus habilidades**,
+- Si buscas un proyecto donde aportar tus habilidades,
 mantenemos una [lista de propuestas](https://github.com/som-labs/community/issues) para proyectos.
 
-**Si tienes nuevas ideas de proyectos**,
+- Si tienes nuevas ideas de proyectos,
 puedes articularlas colaborativamente en forma de
 [issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
 
@@ -39,7 +39,7 @@ puedes articularlas colaborativamente en forma de
 
 Es posible que tu proyecto necesite recursos que te pueda ofrecer la cooperativa:
 **Alojamiento de servicios, dominios, nuevas API's, documentación, consultas, formaciones...**
-La forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
+La forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=peticion-de-api.md).
 
 ## Nota sobre el idioma
 
