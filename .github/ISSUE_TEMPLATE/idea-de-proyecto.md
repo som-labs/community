@@ -13,8 +13,8 @@ about: Idea de proyecto para que lo realice la comunidad Som Labs / HackASom
 ## Objetivo
 *  [Qué se quiere construir]
 
-## Potenciales usuarios
-*  [Tipo de personas potenciales usuàrias]
+## Potenciales usuarias
+*  [Tipo de personas a las que irá dirigida: desarrolladoras, grupos locales, periodistas...]
 
 ## Enlaces de interés
 *  [Proyectos relacionados, implementaciones previas, documentación...]
