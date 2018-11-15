@@ -10,63 +10,48 @@ que queremos poner nuestro grano de arena
 y participar en la cooperativa de otra forma, con nuestro saber hacer técnico.
 La comunidad nació de los eventos HackaSom de la Escuela que cada otoño organiza la cooperativa.
 
-## Recursos
+Todo el mundo está invitado a participar.
 
-Nuestro canal de comunicación directo es el grupo Telegram [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w)
+## Comunicación
 
-TODO: Pròximamente la lista de correo, para discusiones de más largo recorrido
+Nuestro canal de comunicación directo es el grupo **Telegram** [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w)
 
-Si quieres aportar y no tienes una idea clara, mantenemos una [lista de ideas](https://github.com/som-labs/community/issues).
-Si tienes alguna idea de proyecto, puedes articularla también ahí mismo.
+TODO: Pròximamente anunciaremos la nueva **lista de correo**, para discusiones de más largo recorrido
 
-Usamos el proyecto [som-labs](https://github.com/som-labs/) del github como aglutinador de los desarrollos.
-Siéntete libre de investigar los proyectos que hay.
+## Projectos
 
-También participamos en los repositorios que el Equipo Técnico de la cooperativa publica en el proyecto [som-energia](https://github.com/som-energia/)
+**Si quieres aportar y aún no tienes una idea clara**, mantenemos una [lista de ideas](https://github.com/som-labs/community/issues) para proyectos.
+
+**Si ya tienes alguna idea de proyecto**, puedes articularla también ahí mismo como una [nueva issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
+
+## Repositorios
+
+Usamos la organización [som-labs](https://github.com/som-labs/) del github como aglutinador de los proyectos comunitarios. Échale un ojo a los que hay.
+
+También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa publica en la organización [som-energia](https://github.com/som-energia/).
+
+
+## Peticiones de recursos
+
+Si tu proyecto necesita recursos que te pueda ofrecer la cooperativa, la forma de hacerlo también es (mediante una issue)[https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md].
+**Alojamiento de servicios, dominios, nuevas API's, documentación, consultas, formaciones...**
+
+## Más Información
 
 Mientras acabamos de articular la comunidad igual quieres echarle un ojo
 a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.io/somenergia-courses/2018-10-06-hackasom2018/)
 
-## Protocolos
-
-### Incorporación
-
-Incorporarse en la comunidad de HackaSom implica incorporarse en una comunidad interactiva para avanzar distintos
-tipos de proyector, por lo que solo es necessario querer aportar un granito de arena a la comunidad.
-
-La incorporación es abierta i no hace falta dejar constancia en ningún sitio, solo hace falta saber:
-
- - Se puede acceder al grupo de Telegram [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w) para chatear con otros miembros
- - Las peticiones de proyectos u otros recursos se hace con las issues de este mismo repositorio
-
-### Aportar ideas para nuevos proyectos o proyectos ya existentes
-
-Para aportar ideas de nuevos proyectos se puede hacer mediante la plantilla de [Nueva idea de proyecto](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md)
-
-Para aportar nuevas ideas sobre proyectos que aun no existen pero que la idea ya ha estado plasmada en las issues
-se puede hacer mediante mensajes en la issue correspondiente
-
-Para aportar ideas sobre proyectos ya existentes i que tienen un repositorio propio se puede hacer mediante issues
-en el repositorio correspondiente
-
-### Contribuir en los proyectos
-
-Puedes sentirte libre de contribuir en el proyecto que màs te guste, para hacerlo solo tienes que hacer una pull request
-con tus cambios al repositorio que mas te interese
-
-Cabe diferenciar dos organizaciones:
-	
- - [som-labs](https://github.com/som-labs/): Aqui encontramos distintios repositorios abiertos a todos los
-		usuarios. Este es el propio de la comunidad del HackaSom
- - [som-energia](https://github.com/som-energia/): Aqui encontramos distintos repositorios dessarroyados por los trabajadores
-		del Equipo de Trebajo. Se puede contribuir en cualquier proyecto mediante Pull Request
 
 ## Idioma
 
-Esta página de bienvenida a la comunidad y la lista de proyectos están en castellano,
+Esta **página de bienvenida a la comunidad y la lista de proyectos están en castellano**,
 porque no todos los usuarios de SomEnergía que pueden tener ideas de proyectos
-se desenvuelven bien en Inglés.
+se desenvuelven bien en Inglés y el castellano els la lengua franca entre los socios.
 
-Pero después nuestro ámbito de compartición de código es europeo: Otras cooperativas europeas o del mundo.
-Así que a la que se empieza un proyecto mejor mantener la documentación y el código en inglés
-para facilitar la cooperación internacional.
+Pero, nuestro ámbito de compartición de código es europeo: Otras cooperativas europeas o del mundo.
+Así que a la que se empieza un proyecto mejor mantener **la documentación y el código** (funciones, variables, comentarios...) **en inglés**
+para facilitar esa cooperación internacional.
+
+También es importante programar de forma que **los mensajes que se dirijan al usuario final** se puedan traducir.
+De esta forma podremos ofrecer las aplicaciones **en los 4 idiomas cooficiales del estado** (Castellano, Catalan, Euskera y Gallego) y si podemos incluir los no oficiales (Aragones, Bable...), ¡mejor aún!
+
