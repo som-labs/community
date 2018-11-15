@@ -1,6 +1,6 @@
 ---
 name: Idea de proyecto
-about: Idea de proyecto para que lo realice la comunidad Som Labs / HackASom
+about: Idea de proyecto para realizar en la comunidad Som Labs / HackASom
 
 ---
 
