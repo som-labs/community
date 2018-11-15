@@ -50,13 +50,14 @@ a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.
 Esta **página de bienvenida y la lista de proyectos** están **en castellano**.
 Es para facilitar la participación de personas no técnicas que no tienen porqué saber inglés.
 
-Sin embargo, nuestro ámbito de compartición de código es europeo e internacional.
-Así que para facilitar la cooperación internacional,
-escribimos la **documentación y el código** (nombres de funciones, variables, comentarios...)
-preferiblemente **en inglés**.
+Sin embargo, procuramos escribir la **documentación y el código**
+(nombres de funciones, variables, comentarios...)
+**en inglés**.
+Nuestro ámbito de compartición de código es europeo e internacional
+y así facilitamos la cooperación internacional.
 
 Los **textos que van dirigidos al usuario de la aplicación**,
-los escribiremos en inglés pero los haremos **traducibles**
+los escribiremos **en inglés** pero los haremos **traducibles**
 con la intención de que, cuando se publique,
 pueda estar disponible en **Castellano, Catalan, Euskera y Gallego**.
 Y si podemos incluir los otros (Aragones, Aranés, Bable...), ¡mejor aún!
