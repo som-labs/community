@@ -18,40 +18,47 @@ Nuestro canal de comunicación directo es el grupo **Telegram** [HackaSom](https
 
 TODO: Pròximamente anunciaremos la nueva **lista de correo**, para discusiones de más largo recorrido
 
-## Projectos
+## Proyectos en marcha
 
-**Si quieres aportar y aún no tienes una idea clara**, mantenemos una [lista de ideas](https://github.com/som-labs/community/issues) para proyectos.
-
-**Si ya tienes alguna idea de proyecto**, puedes articularla también ahí mismo como una [nueva issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
-
-## Repositorios
-
-Usamos la organización [som-labs](https://github.com/som-labs/) del github como aglutinador de los proyectos comunitarios. Échale un ojo a los que hay.
+Usamos la organización [som-labs](https://github.com/som-labs/) del github para aglutinar los proyectos comunitarios. Échale un ojo a los que hay.
 
 También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa publica en la organización [som-energia](https://github.com/som-energia/).
 
+## Propuestas de proyectos
+
+**Si quieres aportar tus habilidades a la cooperativa**,
+mantenemos una [lista de propuestas](https://github.com/som-labs/community/issues) para proyectos.
+
+**Si tienes alguna idea nueva de proyecto**,
+puedes articularla colaborativamente en forma de
+[nueva issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
 
 ## Peticiones de recursos
 
-Si tu proyecto necesita recursos que te pueda ofrecer la cooperativa, la forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
+Es posible que tu proyecto necesite recursos que te pueda ofrecer la cooperativa:
 **Alojamiento de servicios, dominios, nuevas API's, documentación, consultas, formaciones...**
+La forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
 
 ## Más Información
 
 Mientras acabamos de articular la comunidad igual quieres echarle un ojo
 a la presentación que se hizo en el [Hackasom 2018](https://som-energia.github.io/somenergia-courses/2018-10-06-hackasom2018/)
 
+## Nota sobre el idioma
 
-## Idioma
-
-Esta **página de bienvenida a la comunidad y la lista de proyectos están en castellano**,
+Tanto esta **página de bienvenida a la comunidad como la lista de proyectos** están **en castellano**,
 porque no todos los usuarios de SomEnergía que pueden tener ideas de proyectos
 se desenvuelven bien en Inglés y el castellano els la lengua franca entre los socios.
 
-Pero, nuestro ámbito de compartición de código es europeo: Otras cooperativas europeas o del mundo.
-Así que a la que se empieza un proyecto mejor mantener **la documentación y el código** (funciones, variables, comentarios...) **en inglés**
-para facilitar esa cooperación internacional.
+Pero, nuestro ámbito de compartición de código es europeo e internacional.
+Así que para facilitar la cooperación internacional,
+la **documentación y el código** (nombres de funciones, variables, comentarios...)
+de los proyectos los hacemos preferiblemente **en ingles**.
 
-También es importante programar de forma que **los mensajes que se dirijan al usuario final** se puedan traducir.
-De esta forma podremos ofrecer las aplicaciones **en los 4 idiomas cooficiales del estado** (Castellano, Catalan, Euskera y Gallego) y si podemos incluir los no oficiales (Aragones, Bable...), ¡mejor aún!
+Los **textos que van dirigidos al usuario de la aplicación**,
+los escribiremos en inglés pero los haremos **traducibles**,
+y cuando libreremos intentaremos que esten traducidos
+**en los 4 idiomas cooficiales del estado**
+(Castellano, Catalan, Euskera y Gallego).
+Y si podemos incluir los no cooficiales (Aragones, Bable...), ¡mejor aún!
 
