@@ -37,9 +37,12 @@ puedes articularlas colaborativamente en forma de
 
 ## Peticiones de recursos
 
-Es posible que tu proyecto necesite recursos que te pueda ofrecer la cooperativa:
-**Alojamiento de servicios, dominios, nuevas API's, documentación, consultas, formaciones...**
-La forma de hacerlo también es [mediante una issue](https://github.com/som-labs/community/issues/new?template=peticion-de-api.md).
+Si tu proyecto necesita algún recurso que te pueda ofrecer la cooperativa
+también puedes haciendo rellenando una issue:
+
+- [Nuevas API's](https://github.com/som-labs/community/issues/new?template=peticion-de-api.md).
+- [Alojamiento, dominios, grupos de discusión](https://github.com/som-labs/community/issues/new?template=peticion-de-infrastructura.md).
+- [Información, documentación, formación](https://github.com/som-labs/community/issues/new?template=peticion-de-informacion.md).
 
 ## Nota sobre el idioma
 
