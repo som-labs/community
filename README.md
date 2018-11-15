@@ -10,7 +10,7 @@ que queremos poner nuestro grano de arena
 y participar en la cooperativa de otra forma, con nuestro saber hacer técnico.
 La comunidad nació de los eventos HackaSom de la Escuela que cada otoño organiza la cooperativa.
 
-Todo el mundo está invitado a participar.
+¡Todo el mundo está invitado a participar!
 
 ## Comunicación
 
@@ -18,20 +18,21 @@ Nuestro canal de comunicación directo es el grupo **Telegram** [HackaSom](https
 
 TODO: Pròximamente anunciaremos la nueva **lista de correo**, para discusiones de más largo recorrido
 
-## Proyectos en marcha
+## Espacios de trabajo
 
-Usamos la organización [som-labs](https://github.com/som-labs/) del github para aglutinar los proyectos comunitarios. Échale un ojo a los que hay.
+Aglutinamos los proyectos comunitarios en la organización [som-labs](https://github.com/som-labs/) del github.
+Échale un ojo a los que hay.
 
-También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa publica en la organización [som-energia](https://github.com/som-energia/).
+También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa mantiene de forma pública en la organización [som-energia](https://github.com/som-energia/) de github.
 
 ## Propuestas de proyectos
 
-**Si quieres aportar tus habilidades a la cooperativa**,
+**Si buscas un proyecto donde aportar tus habilidades**,
 mantenemos una [lista de propuestas](https://github.com/som-labs/community/issues) para proyectos.
 
-**Si tienes alguna idea nueva de proyecto**,
-puedes articularla colaborativamente en forma de
-[nueva issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
+**Si tienes nuevas ideas de proyectos**,
+puedes articularlas colaborativamente en forma de
+[issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
 
 ## Peticiones de recursos
 
