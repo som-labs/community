@@ -38,8 +38,8 @@ Usamos dos organizaciones de GitHub:
 
 ## Peticiones de recursos
 
-Si tu proyecto necesita algún recurso que te pueda ofrecer la cooperativa
-también puedes haciendo rellenando una issue:
+Si tu proyecto necesita algún recurso que te pueda ofrecer la cooperativa,
+puedes pedirlo rellenando una issue:
 
 - [Nuevas API's](https://github.com/som-labs/community/issues/new?template=peticion-de-api.md).
 - [Alojamiento, dominios, grupos de discusión](https://github.com/som-labs/community/issues/new?template=peticion-de-infrastructura.md).
