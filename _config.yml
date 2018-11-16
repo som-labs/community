@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 #remote_theme: TaylanTatli/Moon
 #remote_theme: pranavrajs/limpid
 title: Som Labs # overwrites github name
-description: Landing Zone for Hack-A-Som community # overwrites github description
+description: La comunidad de voluntariado tecnológico de la cooperativa Som Energia.
 logo: logo-hackasom2017.jpg
 show_downloads: false
 lang: es

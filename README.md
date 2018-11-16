@@ -1,7 +1,8 @@
-> **English:** This repository is used as welcome to the Som Labs comunity,
-> a volunteer group of hackers that develops software and hardware around the SomEnergia Cooperative.
+> **English:** This is the wellcome page of the Som Labs community,
+> a volunteer group of hackers that develops software and hardware
+> around the [SomEnergia](https://somenergia.coop) cooperative.
 
-Bienvenido a la Comunidad Som Labs.
+## Bienvenido a la Comunidad Som Labs
 
 Somos socias y simpatizantes de la cooperativa [Som Energia](https://somenergia.coop)
 que queremos poner nuestro grano de arena
