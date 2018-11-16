@@ -1,8 +1,10 @@
+theme: jekyll-theme-minimal
 #theme: jekyll-theme-midnight
 #remote_theme: TaylanTatli/Moon
 #remote_theme: pranavrajs/limpid
-title: Comunidad Som Labs
+title: Som Labs # overwrites github name
+description: Landing Zone for Hack-A-Som community # overwrites github description
 logo: logo-hackasom2017.jpg
-show_downloads: true
+show_downloads: false
 lang: es
 #google_analytics: [Your Google Analytics tracking ID]
