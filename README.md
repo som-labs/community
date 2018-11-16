@@ -20,19 +20,21 @@ TODO: Pròximamente anunciaremos la nueva **lista de correo**, para discusiones 
 
 ## Espacios de trabajo
 
-- Aglutinamos los proyectos comunitarios en la organización [som-labs](https://github.com/som-labs/) del github.
-Échale un ojo a los que hay.
+Usamos dos organizaciones de GitHub:
 
-- También participamos vía [pull request](http://aprendegit.com/que-es-un-pull-request/) en los proyectos que el **Equipo Técnico** de la cooperativa mantiene de forma pública en la organización [som-energia](https://github.com/som-energia/) de github.
+- [som-labs](https://github.com/som-labs/):
+	Aglutina los proyectos puramente comunitarios.
+	Échale un ojo a los que hay.
+- [som-energia](https://github.com/som-energia/)
+	Proyectos mantenidos por el personal laboral de la cooperativa.
+	Como comunidad también podemos participar vía [pull request](http://aprendegit.com/que-es-un-pull-request/).
 
 ## Propuestas de proyectos
 
-- Si buscas un proyecto donde aportar tus habilidades,
-mantenemos una [lista de propuestas](https://github.com/som-labs/community/issues) para proyectos.
-
-- Si tienes nuevas ideas de proyectos,
-puedes articularlas colaborativamente en forma de
-[issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
+- ¿Buscas un proyecto donde aportar tus habilidades?
+  - [Ojea la lista de propuestas de proyectos](https://github.com/som-labs/community/issues)
+- ¿Tienes nuevas ideas para proyectos?
+	- [Articúlalas colaborativamente en forma de issue](https://github.com/som-labs/community/issues/new?template=idea-de-proyecto.md).
 
 ## Peticiones de recursos
 
