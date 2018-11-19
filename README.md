@@ -47,14 +47,15 @@ puedes pedirlo rellenando una issue:
 
 ## Nota sobre el idioma
 
-Esta **página de bienvenida y la lista de proyectos** están **en castellano**.
-Es para facilitar la participación de personas no técnicas que no tienen porqué saber inglés.
+**La lista de correos y esta página de bienvenida** las mantenemos **en castellano**.
+Es para facilitar la participación de personas no técnicas de la cooperativa que no tienen porqué saber inglés.
 
-Sin embargo, procuramos escribir la **documentación y el código**
-(nombres de funciones, variables, comentarios...)
-**en inglés**.
-Nuestro ámbito de compartición de código es europeo e internacional
+Sin embargo,
+nuestro ámbito de compartición de código es europeo e internacional
 y así facilitamos la cooperación internacional.
+Por eso, cuando nos ponemos manos a la obra,
+procuramos escribir la **documentación y el código**
+**en inglés**.
 
 Los **textos que van dirigidos al usuario de la aplicación**,
 los escribiremos **en inglés** pero los haremos **traducibles**
