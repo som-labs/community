@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Som Labs # overwrites github name
 description: La comunidad de voluntariado tecnológico de la cooperativa Som Energia.
-logo: logo-hackasom2018.jpg
+logo: logo-hackasom2018.png
 show_downloads: false
 lang: es
 google_analytics: UA-26322939-13
