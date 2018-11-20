@@ -1,6 +1,6 @@
 ---
 name: Petición de Infrastructura
-about: Necesidad de infrastructura para un proyecto: Dominio, hosting, certificados SSL, mailing list, cuenta de correo...
+about: "Necesidad de infrastructura para un proyecto: Dominio, hosting, certificados SSL, mailing list, cuenta de correo..."
 
 ---
 ## Tipo de infrastructura
