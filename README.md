@@ -16,7 +16,7 @@ La comunidad nació de los eventos HackaSom de la Escuela que cada otoño organi
 
 Nuestro canal de comunicación directo es el grupo **Telegram** [HackaSom](https://t.me/joinchat/DgqOPEAGIu81y1vTfiK-6w)
 
-TODO: Pròximamente anunciaremos la nueva **lista de correo**, para discusiones de más largo recorrido
+Para discusiones de más largo recorrido, disponemos de una [lista de correo](https://groups.google.com/forum/#!forum/somlabs/join) en Google Groups
 
 ## Espacios de trabajo
 
