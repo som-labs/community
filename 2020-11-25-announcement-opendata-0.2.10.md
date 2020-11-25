@@ -1,7 +1,7 @@
---
+---
 layout: post
 title: Novedades en la API de open data: Filtros por grupos locales y API de introspección
---
+---
 
 
 La nueva version 0.2.10 de la API, compatible hacia atrás con la anterior, añade dos nuevas funcionalidades:
