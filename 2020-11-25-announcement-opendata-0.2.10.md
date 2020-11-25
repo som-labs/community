@@ -201,10 +201,10 @@ countries:
 
 Los grupos locales aun no estan como detalle en los datos ni como division en los mapas, solo como filtros.
 
-### Mapas?
+### Mapas
 
-Si, esto se añadió en anteriores versiones.
-Si aparte de números quieres ver el mapa:
+Sí, esto también se añadió en versiones recientes.
+Si, aparte de los números, quieres ver el mapa:
 
 <https://opendata.somenergia.coop/v0.2/map/members/by/ccaa>
 ![](https://opendata.somenergia.coop/v0.2/map/members/by/ccaa)
@@ -212,7 +212,7 @@ Si aparte de números quieres ver el mapa:
 <https://opendata.somenergia.coop/v0.2/map/members/by/state>
 ![](https://opendata.somenergia.coop/v0.2/map/members/by/state)
 
-También están las versiones animadas y relativas
+También están las versiones animadas (`/yearly`) y relativas a la población (`/per/population`)
 
 <https://opendata.somenergia.coop/v0.2/map/members/per/population/by/ccaa/yearly>
 ![](https://opendata.somenergia.coop/v0.2/map/members/per/population/by/ccaa/yearly)
@@ -220,6 +220,12 @@ También están las versiones animadas y relativas
 <https://opendata.somenergia.coop/v0.2/map/members/per/population/by/state/yearly>
 ![](https://opendata.somenergia.coop/v0.2/map/members/per/population/by/state/yearly)
 
+
+### Ejemplos de app
+
+También está disponible un ejemplo de aplicación que usa esos datos: [GapMinder](https://opendata.somenergia.coop/ui/gapminder.html)
+
+Esperamos que sirva de inspiración para hacer otros tipos de visualización.
 
 ## Créditos
 
