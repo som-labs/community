@@ -201,15 +201,23 @@ countries:
 
 Los grupos locales aun no estan como detalle en los datos ni como division en los mapas, solo como filtros.
 
-### Mapas
+### Mapas?
 
-Los mapas se añadieron en 
-
-Pero si quieres ver los mapas a nivell de provincias o ccaas:
+Los mapas se añadieron en anteriores versiones.
 
 <https://opendata.somenergia.coop/v0.2/map/members/by/ccaa>
 ![](https://opendata.somenergia.coop/v0.2/map/members/by/ccaa)
 
+<https://opendata.somenergia.coop/v0.2/map/members/by/state>
+![](https://opendata.somenergia.coop/v0.2/map/members/by/state)
+
+También están las versiones animadas y relativas
+
+<https://opendata.somenergia.coop/v0.2/map/members/per/population/by/ccaa/yearly>
+![](https://opendata.somenergia.coop/v0.2/map/members/per/population/by/ccaa/yearly)
+
+<https://opendata.somenergia.coop/v0.2/map/members/per/population/by/state/yearly>
+![](https://opendata.somenergia.coop/v0.2/map/members/per/population/by/state/yearly)
 
 
 ## Créditos
