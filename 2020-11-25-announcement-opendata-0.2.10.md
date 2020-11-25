@@ -203,7 +203,8 @@ Los grupos locales aun no estan como detalle en los datos ni como division en lo
 
 ### Mapas?
 
-Los mapas se añadieron en anteriores versiones.
+Si, esto se añadió en anteriores versiones.
+Si aparte de números quieres ver el mapa:
 
 <https://opendata.somenergia.coop/v0.2/map/members/by/ccaa>
 ![](https://opendata.somenergia.coop/v0.2/map/members/by/ccaa)
