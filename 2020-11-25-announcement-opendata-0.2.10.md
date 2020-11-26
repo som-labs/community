@@ -225,6 +225,8 @@ También están las versiones animadas (`/yearly`) y relativas a la población (
 
 También está disponible un ejemplo de aplicación que usa esos datos: [GapMinder](https://opendata.somenergia.coop/ui/gapminder.html)
 
+![GapMinder](assets/images/pantallada-somenergia-gapminder.png)
+
 Esperamos que sirva de inspiración para hacer otros tipos de visualización.
 
 ## Créditos
