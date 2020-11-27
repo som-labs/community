@@ -18,19 +18,20 @@ por municipios, provincias o comunidades autónomas
 en forma de mapa o de datos numéricos en formato [YAML](https://en.wikipedia.org/wiki/YAML).
 
 El plan es ampliar próximamente tanto las **métricas** como los **ámbitos geográficos** y los **formatos**.
-Por eso esta versión ofrece consultas para averiguar cuales están disponibles
-y así las aplicaciones que usen la API se podrán adaptar a estas ampliaciones.
+Por eso esta versión ofrece **consultas de introspección** para averiguar cuales están disponibles.
+Así las aplicaciones que usen la API se podrán adaptar a estas ampliaciones.
 
-Se ha añadido también el grupo local como ámbito geogràfico,
-de momento solo se puede usar para filtrar la información,
+Se ha añadido también el **grupo local** como ámbito geogràfico.
+De momento solo se puede usar para filtrar la información,
 pero con esto ya podemos averiguar
 qué grupos locales hay en una provincia o qué municipios están incluidos en un grupo local.
 
-La API y la documentación ya está publicada para que cualquiera pueda crear aplicaciones con ella.
+La API y la [documentación](https://opendata.somenergia.coop/docs/) ya está publicada para que cualquiera pueda crear aplicaciones con ella.
 En las próximas semanas seguiremos trabajando para adaptar [la UI](https://opendata.somenergia.coop) a estas nuevas funcionalidades
-y hacerla usable también para personas no técnicas.
+y también para que sea útil para personas no técnicas.
 
-Para nutrir la inspiración os damos alguos ejemplos de uso a continuación.
+Para nutrir la inspiración y creeis todas esas aplicaciónes,
+a continuación os ponemos algunos ejemplos de uso.
 
 
 ## Ejemplos de uso
@@ -246,7 +247,7 @@ También está disponible un ejemplo de aplicación que usa esos datos: [GapMind
 
 ![GapMinder](/community/assets/images/pantallada-somenergia-gapminder.png)
 
-Esperamos que sirva de inspiración para hacer otros tipos de visualización.
+Esperamos que sirva de inspiración para hacer otros tipos de visualizaciones.
 
 ## Créditos
 
