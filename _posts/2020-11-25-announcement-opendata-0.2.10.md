@@ -2,6 +2,7 @@
 layout: post
 title: "Novedades en la API Open Data: Filtros por grupos locales y introspección"
 author: Som Energia IT
+tags: opendata
 ---
 
 La nueva version 0.2.10 de la API Open Data de Som Energia añade dos nuevas funcionalidades:
