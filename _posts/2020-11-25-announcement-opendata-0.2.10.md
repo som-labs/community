@@ -1,21 +1,37 @@
 ---
 layout: post
-title: Novedades en la API de open data: Filtros por grupos locales y API de introspección
+title: "Novedades en la API Open Data: Filtros por grupos locales y introspección"
+author: Som Energia IT
 ---
 
+La nueva version 0.2.10 de la API Open Data de Som Energia añade dos nuevas funcionalidades:
 
-La nueva version 0.2.10 de la API, compatible hacia atrás con la anterior, añade dos nuevas funcionalidades:
+- Un nuevo nivel geográfico para los filtros: el grupo local.
 
-- Se ha añadido un nuevo nivel geográfico para los filtros: el grupo local.
-
-- Se han añadido nuevas consultas para obtener información sobre los diferentes niveles geográficos y métricas que se soportan.
+- Nuevas consultas para obtener información sobre los diferentes niveles geográficos y métricas soportados.
   Las aplicaciones usuarias podrán usar estas consultas para adaptarse a futuras ampliaciones sin necesidad de cambiar su código.
 
-Con la nueva API, a parte de bajarnos datos y mapas, ahora podemos averiguar, por ejemplo, qué grupos locales hay en una provincia o qué municipios están incluidos en un grupo local.
+La [API de Open Data](https://opendata.somenergia.coop/) de Som Energia
+permite a terceras aplicaciones obtener información anonimizada sobre la cooperativa:
+La evolución histórica de métricas, como el número de personas socias o de contratos,
+por municipios, provincias o comunidades autónomas
+en forma de mapa o de datos numéricos en formato [YAML](https://en.wikipedia.org/wiki/YAML).
 
+El plan es ampliar próximamente tanto las métricas como los ámbitos geográficos y los formatos.
+Por eso esta versión ofrece consultas para averiguar cuales están disponibles
+y así las aplicaciones que usen la API se podrán adaptar a estas ampliaciones.
+
+Se ha añadido también el grupo local como ámbito geogràfico,
+de momento solo se puede usar para filtrar la información,
+pero con esto ya podemos averiguar
+qué grupos locales hay en una provincia o qué municipios están incluidos en un grupo local.
+
+La API y la documentación ya está publicada para que cualquiera pueda crear aplicaciones con ella.
 En las próximas semanas seguiremos trabajando para adaptar [la UI](https://opendata.somenergia.coop) a estas nuevas funcionalidades
-pero la API y la documentación ya está publicada para que cualquiera pueda crear aplicaciones con ella.
+y hacerla usable también para personas no técnicas.
+
 Para nutrir la inspiración os damos alguos ejemplos de uso a continuación.
+
 
 ## Ejemplos de uso
 
@@ -46,7 +62,9 @@ geolevels:
   id: localgroup
 ```
 
-Vemos aparecen los que ya teniamos: country, ccaa, state (provicia), city, Y, además, el nuevo nivel de grupos locales (localgroup). Podemos saber que grupos locales hay con:
+Vemos aparecen los que ya teniamos: `country` (país), `ccaa` (comunidad autónoma), `state` (provicia), y `city` (municipio).
+Y, además, aparece el nuevo nivel de grupos locales (`localgroup`).
+Podemos saber que grupos locales hay con:
 
 <https://opendata.somenergia.coop/v0.2/discover/geolevel/localgroup>
 
@@ -59,7 +77,7 @@ options:
   [...]
 ```
 
-Si queremos ver los grupos locales que hay solo en barcelona, se pueden filtrar:
+Si queremos ver los grupos locales que hay solo en barcelona, se pueden filtrar usando query parameters:
 
 <https://opendata.somenergia.coop/v0.2/discover/geolevel/localgroup?state=08>
 
@@ -200,6 +218,7 @@ countries:
 ```
 
 Los grupos locales aun no estan como detalle en los datos ni como division en los mapas, solo como filtros.
+De momento.
 
 ### Mapas
 
