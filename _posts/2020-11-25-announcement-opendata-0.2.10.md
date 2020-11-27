@@ -17,7 +17,7 @@ La evolución histórica de métricas, como el número de personas socias o de c
 por municipios, provincias o comunidades autónomas
 en forma de mapa o de datos numéricos en formato [YAML](https://en.wikipedia.org/wiki/YAML).
 
-El plan es ampliar próximamente tanto las métricas como los ámbitos geográficos y los formatos.
+El plan es ampliar próximamente tanto las **métricas** como los **ámbitos geográficos** y los **formatos**.
 Por eso esta versión ofrece consultas para averiguar cuales están disponibles
 y así las aplicaciones que usen la API se podrán adaptar a estas ampliaciones.
 
@@ -244,7 +244,7 @@ También están las versiones animadas (`/yearly`) y relativas a la población (
 
 También está disponible un ejemplo de aplicación que usa esos datos: [GapMinder](https://opendata.somenergia.coop/ui/gapminder.html)
 
-![GapMinder](assets/images/pantallada-somenergia-gapminder.png)
+![GapMinder](/assets/images/pantallada-somenergia-gapminder.png)
 
 Esperamos que sirva de inspiración para hacer otros tipos de visualización.
 
