@@ -259,6 +259,6 @@ Pol Monsó,
 Alberto Rastrillo,
 David Riera,
 David García
-y con el soporte de Jordi Pons en los sistemas.
+y con el soporte de Jordi Pons y Joan Sarola en el despliegue.
 
 
