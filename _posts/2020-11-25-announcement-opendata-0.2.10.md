@@ -4,6 +4,7 @@ title: "Novedades en la API Open Data: Filtros por grupos locales y introspecci�
 author: Som Energia IT
 tags: opendata
 featured-image: /community/assets/images/announcement-opendata-0.2.10.png
+image: /community/assets/images/announcement-opendata-0.2.10.png
 ---
 
 
@@ -70,6 +71,13 @@ geolevels:
 
 Vemos aparecen los que ya teniamos: `country` (país), `ccaa` (comunidad autónoma), `state` (provicia), y `city` (municipio).
 Y, además, aparece el nuevo nivel de grupos locales (`localgroup`).
+
+En grupos locales, vemos que se especifica `detailed: false`.
+Eso indica que, de momento, no podemos usar este nivell de detalle para agregar los datos.
+También indicamos, `mapable: false`, que indica que tampoco lo podemos usar, de momento, como división en el mapa.
+Lo podemos usar como filtro y preguntar grupo local a grupo local.
+
+
 Podemos saber que grupos locales hay con:
 
 <https://opendata.somenergia.coop/v0.2/discover/geolevel/localgroup>
