@@ -5,6 +5,9 @@ author: Som Energia IT
 tags: opendata
 ---
 
+
+![Pantallazo del anuncio](/community/assets/images/announcement-opendata-0.2.10.png)
+
 La nueva version 0.2.10 de la API Open Data de Som Energia añade dos nuevas funcionalidades:
 
 - Un nuevo nivel geográfico para los filtros: el grupo local.
