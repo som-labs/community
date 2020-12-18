@@ -6,7 +6,7 @@ tags: opendata
 ---
 
 
-![Pantallazo del anuncio](/community/assets/images/announcement-opendata-0.2.10.png)
+![Pantallazo del anuncio](/community/assets/images/announcement-opendata-0.2.10.png){style="width:100%;margin:auto;padding:1em"}
 
 La nueva version 0.2.10 de la API Open Data de Som Energia añade dos nuevas funcionalidades:
 
