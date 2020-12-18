@@ -42,7 +42,7 @@ a continuación os ponemos algunos ejemplos de uso.
 
 ## Ejemplos de uso
 
-Podemos saber los diferentes niveles geograficos que existen y donde los podemos usar (en mapas, como filtros o como nivell de detalle):
+Podemos saber los diferentes niveles geograficos que existen y donde los podemos usar (en mapas, como filtros o como nivel de detalle):
 
 <https://opendata.somenergia.coop/v0.2/discover/geolevel>
 
@@ -72,11 +72,8 @@ geolevels:
 Vemos aparecen los que ya teniamos: `country` (país), `ccaa` (comunidad autónoma), `state` (provicia), y `city` (municipio).
 Y, además, aparece el nuevo nivel de grupos locales (`localgroup`).
 
-En grupos locales, vemos que se especifica `detailed: false`.
-Eso indica que, de momento, no podemos usar este nivell de detalle para agregar los datos.
-También indicamos, `mapable: false`, que indica que tampoco lo podemos usar, de momento, como división en el mapa.
-Lo podemos usar como filtro y preguntar grupo local a grupo local.
-
+En grupos locales, vemos que se especifica `detailed: false` y `mapable: false`,
+que indican respectivamente que aún no se puede usar como nivel de detalle para agregar datos o como división en el mapa.
 
 Podemos saber que grupos locales hay con:
 
