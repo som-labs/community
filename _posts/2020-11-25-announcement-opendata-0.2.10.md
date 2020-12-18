@@ -3,6 +3,7 @@ layout: post
 title: "Novedades en la API Open Data: Filtros por grupos locales y introspección"
 author: Som Energia IT
 tags: opendata
+featured-image: /community/assets/images/announcement-opendata-0.2.10.png
 ---
 
 
