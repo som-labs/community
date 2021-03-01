@@ -10,8 +10,6 @@ image: assets/images/announcement-opendata-0.2.13.png
 
 ![Pantallazo del anuncio]({{site.baseurl}}/assets/images/2021-02-diapo-presentacion-grupos-locales.png){:style="width:100%;margin:auto;padding:1em"}
 
-URL: {{site.url}} Base: {{site.baseurl}}
-
 Coincidiendo con el [encuentro de grupos locales de Som Energia de 2021](),
 anunciamos la nueva **version 0.2.17** de la API Open Data de Som Energia.
 Es la última versión de una serie de versiones cortas
