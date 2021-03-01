@@ -59,13 +59,10 @@ se considera la fecha del cambio a SomEnergia.
 Por últmo, aclarar que se cuentan todos los contratos de autoconsumo,
 sean o no fruto de compras colectivas de los Grupos Locales.
 
+Aquí vemos en el GapMinder enfrentadas las métricas de contratos y de contratos de autoconsumo.
+El tamaño de los puntos está controlado por el crecimiento mensual en autoconsumo.
+
 ![Métricas de autoconsumo en el GapMinder]({{site_url}}/assets/images/pantallada-opendata-gapminder-autoconsum.png){:style="width:100%;margin:auto;padding:1em"}
-
-
-{% include figure.html
-	url="/community/assets/images/pantallada-opendata-gapminder-autoconsum.png"
-	description="Métricas de autoconsumo en el GapMinder"
-%}
 
 
 ## Nuevas métricas derivadas: Altas y bajas
