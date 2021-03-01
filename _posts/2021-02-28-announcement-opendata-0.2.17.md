@@ -8,7 +8,7 @@ image: assets/images/announcement-opendata-0.2.13.png
 ---
 
 
-![Pantallazo del anuncio]({{site_url}}/assets/images/2021-02-diapo-presentacion-grupos-locales.png){:style="width:100%;margin:auto;padding:1em"}
+![Pantallazo del anuncio]({{site.url}}/assets/images/2021-02-diapo-presentacion-grupos-locales.png){:style="width:100%;margin:auto;padding:1em"}
 
 Coincidiendo con el [encuentro de grupos locales de Som Energia de 2021](),
 anunciamos la nueva **version 0.2.17** de la API Open Data de Som Energia.
@@ -19,10 +19,11 @@ enfatizando en **la usabilidad para personas no programadoras**,
 y la incorporación de métricas útiles para **evaluar el impacto
 de las actividades de difusión** que realizan los grupos locales. 
 
-Podeis ver el [vídeo de la presentación a los grupos locales](https://drive.google.com/file/d/1u-XnYfDzmvkZifF51Zy8H4Wqxj9QFtDA/view?usp=sharing) (duración 4:30)
+Podeis ver el [vídeo de la presentación a los grupos locales](https://drive.google.com/file/d/1u-XnYfDzmvkZifF51Zy8H4Wqxj9QFtDA/view?usp=sharing)
 
-Desde un punto de vista más técnico, éste sería el resúmen de las funcionalidades,
-algunas de las cuales ampliamos más abajo:
+Desde un punto de vista más técnico,
+éste sería el resúmen de las funcionalidades,
+algunas de las cuales ampliamos después con mas detalle:
 
 - Métricas:
 	- **Nueva métrica:** Contratos de **autoconsumo**
@@ -62,7 +63,7 @@ sean o no fruto de compras colectivas de los Grupos Locales.
 Aquí vemos en el GapMinder enfrentadas las métricas de contratos y de contratos de autoconsumo.
 El tamaño de los puntos está controlado por el crecimiento mensual en autoconsumo.
 
-![Métricas de autoconsumo en el GapMinder]({{site_url}}/assets/images/pantallada-opendata-gapminder-autoconsum.png){:style="width:100%;margin:auto;padding:1em"}
+![Métricas de autoconsumo en el GapMinder]({{site.url}}/assets/images/pantallada-opendata-gapminder-autoconsum.png){:style="width:100%;margin:auto;padding:1em"}
 
 
 ## Nuevas métricas derivadas: Altas y bajas
@@ -110,14 +111,14 @@ El nuevo front-end de usuario utiliza la introspección del API de descubrimient
 para adaptarse a las nuevas métricas que vayamos añadiendo.
 Por eso todas las nuevas métricas ya se pueden usar en la interfaz nueva.
 
-![Métricas obtenidas de la API discover]({{site_url}}/assets/images/pantallada-opendata-ui-discover-metrics.png)
+![Métricas obtenidas de la API discover]({{site.url}}/assets/images/pantallada-opendata-ui-discover-metrics.png)
 
 También se usa para saber qué niveles geográficos se pueden usar para cada cosa:
 Como nivel de detalle en los mapas o en los datos numéricos o como filtro.
 En los mapas se usa esa información para deshabilitar
 las opciones no disponibles:
 
-![Deshabilitando los niveles geográficos que no se pueden usar en el mapa]({{site_url}}/assets/images/pantallada-opendata-ui-discover-geolevels.png)
+![Deshabilitando los niveles geográficos que no se pueden usar en el mapa]({{site.url}}/assets/images/pantallada-opendata-ui-discover-geolevels.png)
 
 El código de la nueva interfície, que está [publicado en github](https://github.com/som-energia/opendata-ui).
 Puedes usarlo de ejemplo para usar la introspección en vuestras aplicaciones.
@@ -134,7 +135,7 @@ la provincia, la ciudad y el grupo local.
 
 Se pueden añadir varios filtros que aparecen como pildoras que puedes tambien eliminar.
 
-![Geofilters]({{site_url}}/assets/images/pantallada-opendata-geofilters.png)
+![Geofilters]({{site.url}}/assets/images/pantallada-opendata-geofilters.png)
 
 
 ## Mejor visualización de los datos
@@ -172,7 +173,7 @@ Pero igual que las consultas permiten forzar un idioma,
 ahora tambien podemos forzar un idioma para la interficie desde este menú.
 
 
-![Ejemplo de Mapa Animado]({{site_url}}/assets/images/pantallada-opendata-ui-menu.png){:style="width:100%;margin:auto;padding:1em"}
+![Ejemplo de Mapa Animado]({{site.url}}/assets/images/pantallada-opendata-ui-menu.png){:style="width:100%;margin:auto;padding:1em"}
 
 ## OpenAPI 3.0
 
