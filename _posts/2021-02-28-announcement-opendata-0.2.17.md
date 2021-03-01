@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Novedades en la API Open Data: Más métricas y nueva UI"
+title: "Novedades en la API Open Data: Más métricas, nueva UI y más"
 author: Som Energia IT
 tags: opendata
 featured-image: assets/images/announcement-opendata-0.2.13.png
@@ -8,69 +8,99 @@ image: assets/images/announcement-opendata-0.2.13.png
 ---
 
 
-![Pantallazo del anuncio](/community/assets/images/announcement-opendata-0.2.13.png){:style="width:100%;margin:auto;padding:1em"}
+![Pantallazo del anuncio]({% link assets/images/2021-02-diapo-presentacion-grupos-locales.png %}){:style="width:100%;margin:auto;padding:1em"}
 
 Coincidiendo con el [encuentro de grupos locales de Som Energia de 2021](),
-anunciamos la nueva version 0.2.17 de la API Open Data de Som Energia.
-Incluye todas las mejoras añadidas en una serie de versiones cortas
-que se han ido haciendo desde el 
-[anuncio de la 0.2.10]({% link _posts/2020-11-25-announcement-opendata-0.2.10.md %}).
+anunciamos la nueva **version 0.2.17** de la API Open Data de Som Energia.
+Es la última versión de una serie de versiones cortas
+que se han hecho desde la [versión 0.2.10 que se hizo en noviembre]({% link _posts/2020-11-25-announcement-opendata-0.2.10.md %}).
+El objetivo era llegar al evento con funcionalidades útiles para los grupos locales,
+enfatizando en **la usabilidad para personas no programadoras**,
+y la incorporación de métricas útiles para **evaluar el impacto
+de las actividades de difusión** que realizan los grupos locales. 
 
-El resumen sería:
+Podeis ver el [vídeo de la presentación a los grupos locales](https://drive.google.com/file/d/1u-XnYfDzmvkZifF51Zy8H4Wqxj9QFtDA/view?usp=sharing) (duración 4:30)
+
+Desde un punto de vista más técnico, éste sería el resúmen de las funcionalidades,
+algunas de las cuales ampliamos más abajo:
 
 - Métricas:
 	- **Nueva métrica:** Contratos de **autoconsumo**
 	- 6 métricas derivadas para **altas y bajas** de las 3 métricas principales: socias, contratos y autoconsumo
-	- Se ha **corregido** cómo se obtenía la **fecha de alta de las socias**, a veces salían fechas muy posteriores
-	- `/discovery/metrics` incluye una descripción que explica el **significado**, **fuente** y **limitaciones** de cada métrica.
+	- **Correción:** la **fecha de alta de las socias** a veces eran muy posteriores a la real porque se obtenía del sitio incorrecto
+	- `/discovery/metrics` incluye una **descripción** que explica el **significado**, **fuente** y **limitaciones** de cada métrica.
 - [Nueva UI basada en React](https://opendata.somenergia.coop/ui) con nuevas funcionalidades.
 	- Usa la **api de descubrimiento** para adaptarse a futuras métricas y niveles geográficos
 	- Nuevo **selector de filtros geográficos** mucho más práctico
 	- Mejora de la visualización de **tablas**
 	- **Descarga** de datos como **hoja de cálculo** (formato CSV)
 	- **Resaltado de syntaxis** en las vistas YAML y JSON
-	- **Selector del idioma** de la interficie (no solo de la salida)
+	- **Selector del idioma** en el menú para la interficie
 	- Enlace al **GapMinder** en el menú
-- Los **mapas animádos** se generan **más rápido** y
-  se pueden ampliar **sin pixelarse** (son SVG's animados en vez de GIF's)
-- Especificación en **OpenAPI 3.0** y un punto de entrada `/spec` para obtenerla
-- GapMinder
-	- Obtiene los datos de la API directamente (hasta ahora trabajaba con una copia descargada)
-	- También usa la API de descubrimiento para adaptarse a las métricas nuevas
+- Nuevos **mapas animádos**
+	- Son SVG's animados en vez de GIF's
+	- Se generan **más rápido**
+	- Se pueden ampliar **sin pixelarse**
+- Especificación en **OpenAPI 3.0**
+	- Se ha añadido un punto de entrada `/spec` para obtenerla
+	- **Nueva documentación** basada en la especificación, substituyendo a la antigua basada en APIDoc
+- **GapMinder**
+	- Obtiene los datos **de la API en vivo** (hasta ahora trabajaba con una copia descargada)
+	- También usa la **API de descubrimiento** para adaptarse a las métricas nuevas
 
 ## Métrica de autoconsumo
 
 Una petición de los grupos locales era conocer el progreso del autoconsumo en su zona.
-Esta métrica recoge los contratos que tienen activado el autoconsumo.
+Esta métrica recoge los **contratos que tienen activado el autoconsumo**.
 Considera la fecha de activación que nos ofrece la distribuidora.
 Cuando un contrato pasa a Som Energia ya con auto consumo,
 se considera la fecha del cambio a SomEnergia.
-Por últmo, aclarar también, que se cuentan todos los contratos de autoconsumo,
-no solo los que se consiguen con compras colectivas de los Grupos Locales.
 
-![Métricas de autoconsumo en el GapMinder](/community/assets/images/pantallada-opendata-gapminder-autoconsum.png){:style="width:100%;margin:auto;padding:1em"}
+Por últmo, aclarar que se cuentan todos los contratos de autoconsumo,
+sean o no fruto de compras colectivas de los Grupos Locales.
+
+![Métricas de autoconsumo en el GapMinder]({% link assets/images/pantallada-opendata-gapminder-autoconsum.png %}){:style="width:100%;margin:auto;padding:1em"}
+
+
+{% include figure.html
+	url="/community/assets/images/pantallada-opendata-gapminder-autoconsum.png"
+	description="Métricas de autoconsumo en el GapMinder"
+%}
 
 
 ## Nuevas métricas derivadas: Altas y bajas
 
-En el cómputo total de contratos y socias, las bajas
+En el cómputo total de contratos y socias, las **bajas**
 quedaban enmascaradas con las altas que solían ser muchas más.
-Sin embargo, es interesante conocer este flujo para estar alerta de tendencias negativas.
-Las 6 métricas derivadas nuevas separan las altas y bajas para poder detectar mejor
-en que momentos y lugares ha habido bajas.
+Sin embargo, es interesante conocer este flujo para estar **alerta de tendencias negativas**.
 
-Las altas, sin acomulación ni bajas, dan una idea más clara
-del efecto de las acciones de difusión que hace el grupo local,
+Por otro lado, las **altas** durante un mes, sin sumar el acomulado
+y sin contar las bajas, da una idea más limpia
+del **efecto de las acciones de difusión** que hace el grupo local,
 durante el mes o el año.
+
+Por ello de las tres métricas básicas (contratos, socias y contratos de autoconsumo)
+se han derivado 6 nuevas métricas derivadas que separan las altas y bajas
+Podremos detectar mejor en qué momentos y lugares se han producido.
 
 ## Migración de React de la interfície web
 
-En Som Energia estamos migrando a React todas las interfices web,
-(formulario de contratación modificación de contratos...)
-que estaban en Angular o Mithril.
-Le ha tocado el turno a la inteficie web de OpenData.
-Podremos aprovechar la mayor disponibilidad de
+Se estan migrando al framework [React]
+todas las interfices web de Som Energia,
+que estaban hechas en [Angular] o [Mithril].
+Por ejemplo,
+los formularios de contratación,
+de modificación de contratos...
+Esta vez le ha tocado el turno a la
+[inteficie web de OpenData](https://opendata.somenergia.coop/ui).
+
+Con React podremos aprovechar la mayor disponibilidad de
 librerias, herramientas y comunidad en esa plataforma.
+
+[React]: https://reactjs.org/
+[Angular]: https://angularjs.org/
+[Mithril]: https://mithril.js.org/
+
 
 Quedaría pendiente, para próximas versiones, migrar el ejemplo [GapMinder].
 
@@ -83,11 +113,17 @@ El nuevo front-end de usuario utiliza la introspección del API de descubrimient
 para adaptarse a las nuevas métricas que vayamos añadiendo.
 Por eso todas las nuevas métricas ya se pueden usar en la interfaz nueva.
 
+![Métricas obtenidas de la API discover]({% link assets/images/pantallada-opendata-ui-discover-metrics.png %})
+
 También se usa para saber qué niveles geográficos se pueden usar para cada cosa:
 Como nivel de detalle en los mapas o en los datos numéricos o como filtro.
+En los mapas se usa esa información para deshabilitar
+las opciones no disponibles:
 
-El código de la nueva interfície, que está [liberada en github](https://github.com/som-energia/opendata-ui),
-también puede servir de ejemplo de como usar la introspección en vuestras aplicaciones.
+![Deshabilitando los niveles geográficos que no se pueden usar en el mapa]({% link assets/images/pantallada-opendata-ui-discover-geolevels.png %})
+
+El código de la nueva interfície, que está [publicado en github](https://github.com/som-energia/opendata-ui).
+Puedes usarlo de ejemplo para usar la introspección en vuestras aplicaciones.
 
 
 ## Editor de filtros geográficos
@@ -101,7 +137,7 @@ la provincia, la ciudad y el grupo local.
 
 Se pueden añadir varios filtros que aparecen como pildoras que puedes tambien eliminar.
 
-![Geofilters](/community/assets/images/pantallada-opendata-geofilters.png)
+![Geofilters]({% link assets/images/pantallada-opendata-geofilters.png %})
 
 
 ## Mejor visualización de los datos
@@ -121,23 +157,37 @@ La generación de GIFs para los mapas animados era un cuello de botella bastante
 Generando SVG's animados no solo conseguimos servirlos más rápido,
 sinó que ademas los mapas se pueden ampliar a cualquier tamaño
 sin pérdida de calidad,
-como ya pasaba con los mapas no animados.
+igual que los no animados.
 
 
-![Ejemplo de Mapa Animado](http://opendata.somenergia.coop/v0.2/map/newmembers/by/province/monthly){:style="width:100%;margin:auto;padding:1em"}
+![Ejemplo de Mapa Animado](http://opendata.somenergia.coop/v0.2/map/newmembers/by/state/monthly){:style="width:100%;margin:auto;padding:1em"}
 
+
+## Menú para la documentación, el GapMinder, y idioma
+
+Diversas opciones están disponibles con el menú de la esquina superior derecha:
+Acceder a la documentación, acceder al GapMinder, y cambiar el idioma de la interfície.
+
+Igual que las llamadas a las consultas,
+la interficie adopta por defecto el idioma
+que hay configurado en el navegador.
+Pero igual que las consultas permiten forzar un idioma,
+ahora tambien podemos forzar un idioma para la interficie desde este menú.
+
+
+![Ejemplo de Mapa Animado]({% link assets/images/pantallada-opendata-ui-menu.png %}){:style="width:100%;margin:auto;padding:1em"}
 
 ## OpenAPI 3.0
 
 Hemos generado una especificación de la API siguiendo el estandard [OpenAPI 3.0]
 y está disponible en el punto de entrada `/spec`.
 
-[Open API 3.0]: https://es.wikipedia.org/wiki/Especificaci%C3%B3n_OpenAPI
+[OpenAPI 3.0]: https://es.wikipedia.org/wiki/Especificaci%C3%B3n_OpenAPI
 
-Esa especificación nos ayudara a substituir la documentación antigua
-basada en APIDoc que se estaba quedando anticuada.
-Hay muchas herramientas de documentación y generación de código para APIDoc
-que ahora podremos usar.
+La [nueva documentación](https://opendata.somenergia.coop/docs/)
+ya se ha generado basandonos en esta epecifiación con la herramienta [ReDoc].
+De hecho, una de las ventajas de OpenAPI es que podemos usar
+diversas herramientas para generar documentacion o código de cliente en diferentes lenguajes.
 
 ## GapMinder extensible
 
