@@ -266,7 +266,7 @@ Mar Jenè,
 Benjamí Ramos,
 Joana Figueira,
 Pol Monsó,
-Alberto Rastrillo,
+Alberto Rasillo,
 David Riera,
 David García
 y con el soporte de Jordi Pons y Joan Sarola en el despliegue.
