@@ -10,12 +10,13 @@ image: assets/images/announcement-opendata-0.2.13.png
 
 ![Pantallazo del anuncio](/community/assets/images/announcement-opendata-0.2.13.png){:style="width:100%;margin:auto;padding:1em"}
 
-Coincidiendo con el encuentro de grupos locales de Som Energia de 2021,
+Coincidiendo con el [encuentro de grupos locales de Som Energia de 2021](),
 anunciamos la nueva version 0.2.17 de la API Open Data de Som Energia.
 Incluye todas las mejoras añadidas en una serie de versiones cortas
 que se han ido haciendo desde el 
-[anuncio de la 0.2.10]({% link _posts/2021-02-28-announcement-opendata-0.2.10.md %}),
-hace solo un mes:
+[anuncio de la 0.2.10]({% link _posts/2020-11-25-announcement-opendata-0.2.10.md %}).
+
+El resumen sería:
 
 - Métricas:
 	- **Nueva métrica:** Contratos de **autoconsumo**
