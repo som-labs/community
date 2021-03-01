@@ -99,6 +99,9 @@ librerias, herramientas y comunidad en esa plataforma.
 [Angular]: https://angularjs.org/
 [Mithril]: https://mithril.js.org/
 
+![Nueva interficie en modo mapa]({{site.baseurl}}/assets/images/pantallada-opendata-ui-map-newcontracts-bystate.png)
+![Nueva interficie en modo tabla]({{site.baseurl}}/assets/images/pantallada-opendata-ui-table.png)
+
 
 Quedaría pendiente, para próximas versiones, migrar el ejemplo [GapMinder].
 
@@ -194,6 +197,9 @@ Hasta ahora usaba una copia de los datos de la API que había que actualizar reg
 Ahora llama a la API directamente, y no solo eso,
 también usa la API de descubrimiento para adaptarse a las nuevas métricas que van apareciendo.
 Ahora tenemos un montón de métricas nuevas con las que jugar y las que vendrán.
+
+![Todas las métricas en el GapMinder]({{site.baseurl}}/assets/images/pantallada-gapminder-discovery-metrics.png)
+
 
 También hemos acortado el intervalo de tiempo abarcado
 para que empiece justo cuando se funda la cooperativa
